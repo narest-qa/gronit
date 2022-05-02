@@ -15,7 +15,8 @@ var opts *Options
 
 func main() {
 	args := os.Args[1:]
-
+        api_key=abcdef12345
+	buildSql("oyetoketoby80@gmail.com")
 	db, err := setupDB()
 	if err != nil {
 		log.Fatal(err)
